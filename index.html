@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="Author" description="Rachman Aldiansyah" />
+		<meta
+			name="content"
+			description="This is a simple Rock Paper Scissors Game Using HTML, CSS, and JavaScript."
+		/>
+		<title>Rock Paper Scissors Game</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="images/paper.png" />
+	</head>
+	<body>
+		<header>
+			<h1>Rock Paper Scissors Game!</h1>
+		</header>
+
+		<div class="score-board">
+			<div id="user-label" class="badge">user</div>
+			<div id="computer-label" class="badge">comp</div>
+			<span id="user-score">0</span>:<span id="computer-score">0</span>
+		</div>
+
+		<div class="result">
+			<p>Paper Covers Rock. You Win!</p>
+		</div>
+
+		<div class="choices">
+			<div class="choice" id="r">
+				<img src="images/paper.png" alt="rock" />
+			</div>
+			<div class="choice" id="p">
+				<img src="images/rock.png" alt="rock" />
+			</div>
+			<div class="choice" id="s">
+				<img src="images/scissors.png" alt="scissors" />
+			</div>
+		</div>
+
+		<p id="action-message">Make your move.</p>
+
+		<!-- Import JS File -->
+		<script src="script.js" charset="utf-8"></script>
+	</body>
+</html>
